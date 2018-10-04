@@ -11,7 +11,6 @@ h1.header {
     font-size: 24pt;
     text-align: center;
     padding: 10px;
-    
 }
 
 hr.header {
@@ -22,8 +21,8 @@ hr.header {
 }
 
 hr {
-    width: 760px;
-    background-color: #777777;
+    width: 94.5%;
+    background-color: #eaeaea;
 }
 
 button{
@@ -66,12 +65,11 @@ body {
 
 
 footer{
-    flex-shrink: 0;
+    margin-top: 30px;
     background: #666666;
-    vertical-align: bottom;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     color: white;
     font-size: 10pt;
     border-top: 8px solid #4aaaa5;
@@ -99,14 +97,12 @@ header,{
 }
 
 aside.aboutme {
-    height:470px;
-    width:800px;
+    height: 800px;
+    width: 750px;
     box-shadow: 5px 10px 18px #888888;
-    overflow: fixed;
-    margin: auto;
     background: #ffffff;
-    margin-bottom: 70px;
     margin-top: 40px;
+    margin: auto;
 }
 
 h1.aboutme {
@@ -117,12 +113,37 @@ h1.aboutme {
 }
 
 img {
-    height: 200px;
     width: 200px;
-    float: left;
+    height: 200px;
     padding: 20px;
+}
+
+#tour {
+    margin-top: -40px;
 }
 
 h3 {
     font-family: 'Helvetica';
+}
+
+.box {
+    float: left;
+    overflow: fixed;
+}
+
+.title {
+    color: #ffffff;
+    background: #4aaaa5;
+    width: 200px;
+    height: 50px;
+    margin-left: -224px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hidden {
+    visibility: hidden;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
 }

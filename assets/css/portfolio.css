@@ -25,7 +25,22 @@ hr {
     background-color: #eaeaea;
 }
 
-button{
+a {
+    vertical-align: middle;
+    margin-top: -80px;
+    margin-left: 66.5%;
+    background-color: transparent;
+    border: none;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    color: #777777;
+    font-family: Helvetica;
+}
+
+button {
     vertical-align: middle;
     margin-top: -90px;
     margin-left: 66.5%;
@@ -37,8 +52,8 @@ button{
     display: inline-block;
     font-size: 14px;
     color: #777777;
+    font-family: Helvetica;
 }
-
 #about {
     height: 50px;
     float: left;
@@ -105,7 +120,7 @@ aside.aboutme {
     margin: auto;
 }
 
-h1.aboutme {
+h2.aboutme {
     color: #4aaaa5;
     padding-left: 20px;
     padding-top: 20px;

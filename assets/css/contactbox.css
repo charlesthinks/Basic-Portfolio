@@ -111,10 +111,13 @@ button{
 body {
     color: #777777;
     background: #eaeaea;
+    background-image: url(../images/leaves.jpeg);
+    background-size: 100% auto;
+    background-attachment: fixed;
 }
 
 
-footer {
+.footer {
     flex-shrink: 0;
     background: #666666;
     text-align: center;

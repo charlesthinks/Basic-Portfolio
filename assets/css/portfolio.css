@@ -76,10 +76,13 @@ button {
 body {
     color: #777777;
     background: #eaeaea;
+    background-image: url(../images/leaves.jpeg);
+    background-size: 100% auto;
+    background-attachment: fixed;
 }
 
 
-footer{
+.footer{
     margin-top: 30px;
     background: #666666;
     text-align: center;
@@ -88,7 +91,6 @@ footer{
     color: white;
     font-size: 10pt;
     border-top: 8px solid #4aaaa5;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -116,7 +118,7 @@ header,{
 }
 
 aside.aboutme {
-    height: 800px;
+    height: 860px;
     width: 750px;
     box-shadow: 5px 10px 18px #888888;
     background: #ffffff;
